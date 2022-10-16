@@ -1,0 +1,49 @@
+{
+  "name": "nuxt-static-boilerplate",
+  "version": "3.0.1",
+  "description": "A well-organized Nuxt template for creating fast static applications.",
+  "author": "Ivo Dolenc",
+  "license": "MIT",
+  "homepage": "https://github.com/ivodolenc/nuxt-static-boilerplate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivodolenc/nuxt-static-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivodolenc/nuxt-static-boilerplate/issues"
+  },
+  "keywords": [
+    "nuxt",
+    "boilerplate",
+    "nuxt-boilerplate",
+    "nuxt-template",
+    "template",
+    "static"
+  ],
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "lint:eslint": "eslint --ext .js,.vue .",
+    "lint:all:eslint": "yarn lint:eslint --fix"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "nuxt": "^2.15.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/eslint-parser": "^7.17.0",
+    "@nuxtjs/eslint-config": "^9.0.0",
+    "@nuxtjs/netlify-files": "^1.2.0",
+    "@nuxtjs/svg": "^0.4.0",
+    "@unocss/nuxt": "^0.30.11",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "nuxt-font-loader": "^1.1.4",
+    "nuxt-lazysizes": "^1.4.1",
+    "prettier": "^2.6.2"
+  }
+}
